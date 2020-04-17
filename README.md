@@ -83,11 +83,6 @@ This project was built using these technologies.
 * Stickler
 * VsCode
 
-<!-- LIVE VERSION -->
-## Live version
-
-You can see it working [here](https://morning-savannah-73840.herokuapp.com/)
-
 <!-- CONTACT -->
 ## Contributors
 
