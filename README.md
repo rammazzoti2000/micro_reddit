@@ -106,7 +106,7 @@ To have this app on your pc, you need to:
 - GitHub: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - E-mail: bangau.alexandru@gmail.com
 
-## :handshaking: Contributing
+## :handshake: Contributing
 
 Contributions, issues and feature requests are welcome!
 
