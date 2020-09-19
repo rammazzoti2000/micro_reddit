@@ -45,17 +45,27 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+  * [Usage](#usage)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![Product Name Screen Shot][product-screenshot]
 
 This project is about building an application similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it. It is based mainly on the active record, models, and associations to the tests, meaning no user interface has been added.
 
+### Built With
+This project was built using these technologies.
+* Ruby & Ruby on Rails
+* SQLite
+* Rubocop
+* Stickler
+* Atom :atom:
+
 <!-- INSTALLATION -->
-## Installation
+## Usage
 
 To have this app on your pc, you need to:
 * have Ruby & Ruby on Rails installed in your computer
@@ -73,15 +83,13 @@ To have this app on your pc, you need to:
 * then, run rails db:migrate. This creates the database with the corresponding tables, columns and associations
   - ```$ rails db:migrate```
 * and finally, you can test it in the console by running
-  - ```$ rails console```
+  - ```$ rails console --sandbox```
+* type ``User``, ``Post`` or ``Comment`` to see the structure of each model
 
-### Built With
-This project was built using these technologies.
-* Ruby & Ruby on Rails
-* SQLite
-* Rubocop
-* Stickler
-* VsCode
+<!-- AUTOMATED TEST -->
+### Automated Test
+
+> There are no Automated Test for this project yet
 
 <!-- CONTACT -->
 ## Contributors
@@ -98,6 +106,15 @@ This project was built using these technologies.
 - GitHub: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - E-mail: bangau.alexandru@gmail.com
 
+## :handshake: Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rammazzoti2000/micro_reddit/issues).
+
+## Show your support
+
+Give a :star: if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -116,7 +133,7 @@ This project was built using these technologies.
 [stars-url]: https://github.com/rammazzoti2000/micro_reddit/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/micro_reddit.svg?style=flat-square
 [issues-url]: https://github.com/rammazzoti2000/micro_reddit/issues
-[product-screenshot]: app/assets/images/micro_reddit.png
+[product-screenshot]: app/assets/images/screenshot.png
 
 ## 📝 License
 
